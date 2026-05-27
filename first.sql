@@ -1,6 +1,5 @@
 
-DROP TABLE IF EXISTS player;
-
+DROP TABLE IF EXISTS player
 
 CREATE TABLE player (
     id SERIAL PRIMARY KEY, 
