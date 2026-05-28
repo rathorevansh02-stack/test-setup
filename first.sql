@@ -69,3 +69,7 @@ SELECT name, LENGTH(name) AS name_length, rank
 FROM player
 WHERE LENGTH(name) > 6 
   AND (LOWER(rank) LIKE '%platinum%' OR LOWER(rank) LIKE '%diamond%');
+
+
+
+
